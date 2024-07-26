@@ -1,0 +1,11 @@
+[package]
+name = "sudoku"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.11", features = ["derive"] }
+hex = "0.4.3"
+hmac-sha256 = "1.1.7"
+rand = "0.8.5"
+rand_xoshiro = "0.6.0"
